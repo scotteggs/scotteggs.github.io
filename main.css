@@ -300,10 +300,10 @@ CONTACT
 SKILLS
 *******************************************/
 .skills{
-  width: 85%;
+  width: 90%;
 }
 .item-skills{
-  height: 30px;
+  height: 22px;
   background: #428bca;
   color: #fff;
   padding: 5px 10px;
@@ -311,7 +311,7 @@ SKILLS
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: 600;
 }
 .skills-legend{
@@ -334,6 +334,7 @@ SKILLS
   color: #a9a9a9;
   float: left;
 }
+
 .legend:before{
   width: 3px;
   height: 10px;
