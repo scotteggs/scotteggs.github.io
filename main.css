@@ -16,6 +16,21 @@ SETTINGS
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
 /*******************************************
+testing
+*******************************************/
+/*#mainrow {
+  background-color: lightblue;
+}
+#mainleftcolumn {
+  background-color: lightgreen;
+}
+#innnerleftcolumn{
+  background-color: pink;
+}
+#innerrightcolumn{
+  background-color: orange;
+}*/
+/*******************************************
 BODY
 *******************************************/
 body{
@@ -115,23 +130,24 @@ PROJECTS
 *******************************************/
 
 .project-title {
-  margin-top: 8px;
+  margin-top: 0px;
   font-size: 1.8em;
   font-weight: bold;
 }
 
 .project-description {
   font-size: 1.5em;
+  margin-top: 2px;
+  margin-bottom: -15px;
 }
 .project-nolink {
   font-size: 1.2em;
 }
 .project-link {
-  float: right;
-  margin-top: -25px;
   margin-right: 20px;
   font-size: 1.5em;
   font-style: itali428bcac;
+  color: #428bca;
 }
 
 .project-link-color {
@@ -157,7 +173,9 @@ a.project-box-link:hover {
 .github-link p {
   margin-bottom: 0px;
 }
-
+.github-link:hover {
+  background-color: #c6dcef;
+}
 
 /*******************************************
 EDUCATION
@@ -370,14 +388,23 @@ OTHER SKILLS
 /*******************************************
 MEDIA
 *******************************************/
+@media (min-width: 1px) {
+  .github-link {
+    float: none;
+  }
 @media (min-width: 500px) {
   #education .description{
     width: 75%;
   }
-}
+  .github-link {
+    float: none;
+  }
 @media (min-width: 768px) {
   #education .description{
     width: 75%;
+  }
+  .github-link {
+    float: right;
   }
 }
 @media (min-width: 992px) {
