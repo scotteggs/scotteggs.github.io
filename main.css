@@ -53,6 +53,24 @@ CONTAINER
 /*******************************************
 PHOTO (AVATAR)
 *******************************************/
+#pdf-link:visited a:visited {
+  color: pink;
+  background-color: green;
+}
+#pdf-link {
+  float: right;
+  font-size: 1.3em;
+  margin-right: 50px;
+  margin-top: -20px;
+  text-decoration: none;
+}
+#pdf-link:hover {
+  background-color: #c6dcef;
+  color: #428bca;
+  underline: none;
+}
+
+
 #resume-link {
   text-align: center;
   font-size: 1.3em;
@@ -68,7 +86,7 @@ a.resume-link {
 
 #text-header h1{
   color: #428bca;
-  margin: 0;
+  margin: 15px 0 0 0;
   padding: 0;
   font-size: 2.4em;
   font-weight: 700;
@@ -172,6 +190,7 @@ a.project-box-link:hover {
 
 .github-link p {
   margin-bottom: 0px;
+  color: #428bca;
 }
 .github-link:hover {
   background-color: #c6dcef;
@@ -259,12 +278,22 @@ EXPERIENCES
 .job .where{
   font-size: 1.4em;
   font-weight: bold;
+  color: black;
 }
 .job .where p{
   font-size: .9em;
   font-weight: normal;
   margin: 0px;
-  
+}
+.job .where a{
+  color: black;
+}
+.job .where a:hover{
+  text-decoration: none;
+}
+.job .where div:hover{
+  text-decoration: none;
+  background-color: lightgray;
 }
 .job .year{
   font-size: 1.3em;
